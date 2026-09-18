@@ -12,6 +12,35 @@
 
 ---
 
+## 快速安装
+
+### 方式一：一键下载 Skill 包
+
+[⬇️ 直接下载 `skill.zip`](https://raw.githubusercontent.com/chenzhen7779-creator/academic-ppt-methods/main/skill.zip)
+
+下载后，在 ChatGPT 的 Skills 页面上传 `skill.zip` 即可。
+
+> 目前 ChatGPT Skill 没有通用的 `npm install` / `pip install` 式远程安装协议，因此不能可靠地用一条 shell 命令“直接安装到 ChatGPT”。最稳妥的方式是直接下载这个已经打包好的 `skill.zip`，再上传到 Skills。
+
+### 方式二：命令行一键下载
+
+```bash
+curl -L https://raw.githubusercontent.com/chenzhen7779-creator/academic-ppt-methods/main/skill.zip -o skill.zip
+```
+
+下载完成后，把生成的 `skill.zip` 上传到 ChatGPT Skills。
+
+### 方式三：克隆源码
+
+```bash
+git clone https://github.com/chenzhen7779-creator/academic-ppt-methods.git
+cd academic-ppt-methods
+```
+
+适合需要二次修改团队规范或继续开发 Skill 的用户。
+
+---
+
 ## 适合谁使用
 
 特别适合：
