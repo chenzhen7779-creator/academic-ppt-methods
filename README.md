@@ -1,5 +1,7 @@
 # Academic PPT Methods
 
+[中文介绍 / Chinese README](./README.zh-CN.md)
+
 A reusable ChatGPT Skill for turning thesis proposal materials into academically rigorous, visually clear methods-section presentations.
 
 ## Team edition defaults
@@ -37,6 +39,7 @@ Upload `skill.zip` to ChatGPT Skills.
 
 ## Repository structure
 - `SKILL.md` - main behavior and workflow
+- `README.zh-CN.md` - Chinese introduction
 - `references/team-style.md` - team visual standard
 - `references/page-blueprints.md` - reusable methods-slide patterns
 - `references/academic-review-checklist.md` - academic QA checklist
